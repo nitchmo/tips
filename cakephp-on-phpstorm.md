@@ -1,4 +1,4 @@
-# PhpStormにて、CakePHP開発する時の初期設定
+# PhpStormにて、CakePHP開発する時に、コード補完させる。
 
 OSは、macOS High Sierra  
 CakePHPのバージョンは、2.7  
