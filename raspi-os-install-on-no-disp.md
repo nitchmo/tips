@@ -29,4 +29,6 @@ touch /Volumes/boot/ssh
 
 上記で作成したMicroSDを、Raspberry Piに付けて起動して１分ほど待ちます。
 
-
+```
+ssh pi@raspberrypi.local
+```
