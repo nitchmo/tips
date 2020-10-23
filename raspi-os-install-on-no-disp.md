@@ -27,8 +27,13 @@ touch /Volumes/boot/ssh
 
 ## SSH接続
 
-上記で作成したMicroSDを、Raspberry Piに付けて起動して１分ほど待ちます。
+まず、回線の接続としては、Macと直接LAN接続するだけで、他には Wi-FiもLAN HUBにも接続しません。
+
+そして、上記で作成したMicroSDを、Raspberry Piに付けて起動して１分ほど待って、起動したらSSH接続します。
 
 ```
 ssh pi@raspberrypi.local
 ```
+
+上記で起動すると、ネットワークの設定をするまでは再起動しないでください。
+１度起動する時に touchコマンドで作成したsshファイルは削除されていて、今度は上記の様な raspberrypi.localの名前解決が出来ない状態になります。
